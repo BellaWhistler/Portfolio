@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toggle Menü 1</title>
+    <style>
+        .flex{
+            display: flex;
+            justify-content: space-between;
+        }
+        nav li{
+            list-style: none;
+            background-color: crimson;
+            padding: 1.5em;
+            font-size: 1.5rem;
+            font-family: Arial, Helvetica, sans-serif;
+            text-transform: uppercase;
+            display: inline;
+        }
+        nav a{
+            text-decoration: none;
+            color: #ffffff;
+        }
+        nav a:hover{
+            text-decoration: underline;
+        }
+
+          /*ab hier notwendig für Burger Menü*/
+        .burgermenue{
+            display: none;/*ausblenden*/
+        }
+      
+      /*Media Query*/
+        @media (max-width: 70em) {  
+         nav li{
+            padding: 1.5em;
+            display: block;
+        }
+        .burgermenue{
+            position: absolute;
+            top: 1em;
+            right:1em;
+            display: block;/*einblenden*/
+			cursor:pointer;
+        }
+        .animation { 
+				transition: height 1s ease-in-out; 
+				height: 0;
+                overflow:hidden;
+		}
+		.slowdown { 
+            height: 60em; 
+        }
+    }
+    </style>
+</head>
+<body class="flex">
+    <nav>
+        <!---Achtung Klasse vergeben für die Liste der nav->-->
+        <ul class="animation">
+            <li><a href="">Home</a></li>
+            <li><a href="">Portfolio</a></li>
+            <li><a href="">Kontakt</a></li>
+            <li><a href="">Impressum</a></li>
+            <li><a href="">Datenschutz</a></li>
+        </ul>
+    </nav>
+    <!--Achtung Klasse vergeben für das Burger Icon-->
+    <div class="burgermenue">
+            <img src="menu.svg" alt="burger menü - menü öffnen">
+    </div>
+
+    <script>
+        //für Burgermenü
+        let navigation = document.querySelector(".animation");
+        let hamburger = document.querySelector(".burgermenue");
+
+        hamburger.addEventListener("click", function(){
+            navigation.classList.toggle("slowdown");
+        })
+    </script>
+</body>
+</html>
