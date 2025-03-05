@@ -1,5 +1,5 @@
 05.03.25
-  Currently trying to figure out why my JS color cursor effect is not working or at least not showing up. 
+  Currently trying to figure out why my JS color cursor effect is not working or at least not showing up in the viewports above 34em/smartphone size. 
   Since I'm very new here on GitHub and teaching myself autodidactically, I'd appreciate any help/tips in hopes of eventually solving this problem. 
 
   Best, 
