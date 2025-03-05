@@ -5,6 +5,7 @@ Welcome to my personal portfolio website! This project showcases my skills in we
 🚀 Live Demo:
 
 🔗 Access My Portfolio: https://bellawhistler.github.io/Portfolio
+
 📌 Features:
 
 Landing Page – Introduction with a brief "About Me" section.
@@ -16,6 +17,8 @@ Work Examples – Showcasing my previous projects.
 Contact Information – Ways to get in touch with me.
 
 Responsive Design – Fully functional on desktop and mobile devices.
+
+Cursor: A pretty cursor that's being followed by a trail of colorful circles - unfortunately I have not yet been able to figure out why this effect is not working on my GitHub page :'(
 
 🛠️ Technologies Used:
 
