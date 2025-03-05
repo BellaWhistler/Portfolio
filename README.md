@@ -4,8 +4,7 @@ Welcome to my personal portfolio website! This project showcases my skills in we
 
 🚀 Live Demo:
 
-🔗 Access My Portfolio (Replace with your direct link)
-
+🔗 Access My Portfolio: https://bellawhistler.github.io/Portfolio
 📌 Features:
 
 Landing Page – Introduction with a brief "About Me" section.
