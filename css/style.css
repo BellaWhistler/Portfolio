@@ -566,6 +566,9 @@ footer nav {
     .title{
         margin-bottom: 0;
     }
+	figure img{
+		width: 50%;
+		height: 50%;
 }
  
 /* Bunter Cursor */
