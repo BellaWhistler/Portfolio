@@ -550,6 +550,8 @@ footer nav {
     }
     h6 {
         font-size: 2rem;
+	margin: auto;
+	padding: auto;
     }
     .captionLeft{
         font-size: 2rem;
