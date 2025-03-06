@@ -18,8 +18,7 @@ Contact Information – Ways to get in touch with me.
 
 Responsive Design – Fully functional on desktop and mobile devices.
 
-Cursor: A pretty cursor that's being followed by a trail of colorful circles - unfortunately I have not yet been able to figure out why this effect is not working on my GitHub page :'(
-
+Cursor: A pretty cursor that's being followed by a trail of colorful circles - maybe not exactly UX compliant, but pretty to look at and play with and literally a splash of color on the otherwise rather minimalistic & clean site.
 🛠️ Technologies Used:
 
 HTML – Structuring the website.
