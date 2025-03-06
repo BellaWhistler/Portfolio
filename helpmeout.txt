@@ -4,3 +4,6 @@
 
   Best, 
   Bella :)
+
+06.03.25
+I successfully figured out, why the color cursor wasn't working in the bigger viewports: the mediaquery was missing a closing } and therefore included the color cursor details below. Wish it was always as simple as this :P 
