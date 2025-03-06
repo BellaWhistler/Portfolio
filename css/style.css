@@ -533,10 +533,6 @@ footer nav {
         align-items: center;
         padding: 1rem;
     }
-	header figure img{
-		width: 70%;
-		height: 70%;
-	}
 }
 
 @media(max-width:34em){
@@ -571,10 +567,6 @@ footer nav {
     .title{
         margin-bottom: 0;
     }
-	header figure img{
-		width: 50%;
-		height: 50%;
-	}
 }
  
 /* Bunter Cursor */
