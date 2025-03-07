@@ -254,8 +254,8 @@ header.flex {
     max-width: 77em;
     width: 90%;
     min-height: 50vh;
-    margin: auto; 
-    padding: 40px;
+    margin: 0px; 
+    padding: 20px;
 }
 
 article p{
